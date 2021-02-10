@@ -1,12 +1,13 @@
 /**
  * @author brramirezr
- * @function Limpia todo lo que se encuentra almacenado en el localStorage
+ * @function Limpia lo que se encuentra almacenado en el localStorage
+ * @param {string} [llave] llave/key para eliminar un valor especifico en el localStorage
  */
-const limpiarAlmacenamiento = () => {
-    try {
+const limpiarAlmacenamiento = (llave) => {
+    if (!llave) {
         localStorage.clear();
-    } catch (error) {
-        console.error(error);
+    } else {
+        localStorage.removeItem(llave);
     }
 }
 
