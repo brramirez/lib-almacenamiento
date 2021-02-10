@@ -1,13 +1,13 @@
 {
   "name": "@red-unica/libreria-almacenamiento",
-  "version": "1.0.2",
-  "description": "Libreria para almacenar informacion cifrada en el local storage",
+  "version": "1.0.3",
+  "description": "Librería para leer y escribir información cifrada/descifrada en el localStorage",
   "source": "index.js",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "exports": "./dist/index.modern.js",
   "scripts": {
-    "build": "microbundle --no-sourcemap",
+    "build": "microbundle --no-compress",
     "prepare": "run-s build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

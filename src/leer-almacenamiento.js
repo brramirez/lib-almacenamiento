@@ -2,7 +2,7 @@ import { descifrarTexto } from '@red-unica/libreria-cifrado';
 /**
  * @author brramirezr
  * @function Descifra y lee la información almacenada en el localStorage
- * @param {*} llave item/key almacenado en el localStorage
+ * @param {string} llave item/key almacenado en el localStorage
  * @returns text/valor decifrado que se encuentra almacenada en el localStorage
  */
 const leerAlmacenamiento = (llave) => {
