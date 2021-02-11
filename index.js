@@ -1,7 +1,7 @@
+const escribirAlmacenamiento = require('./src/escribir-almacenamiento');
+const leerAlmacenamiento = require('./src/leer-almacenamiento');
+const limpiarAlmacenamiento = require('./src/limpiar-almacenamiento');
 
-import escribirAlmacenamiento from './src/escribir-almacenamiento';
-import leerAlmacenamiento from './src/leer-almacenamiento';
-import limpiarAlmacenamiento from './src/limpiar-almacenamiento';
 
 module.exports = {
     escribirAlmacenamiento,

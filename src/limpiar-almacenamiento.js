@@ -11,4 +11,5 @@ const limpiarAlmacenamiento = (llave) => {
     }
 }
 
-export default limpiarAlmacenamiento;
+//export default limpiarAlmacenamiento;
+module.exports = limpiarAlmacenamiento;

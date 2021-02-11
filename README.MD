@@ -44,7 +44,7 @@ Importe las funciones necesarias para su proyecto:
 
 ```javascript
 
-import { escribirAlmacenamiento, leerAlmacenamiento, limpiarAlmacenamiento } from '@red-unica/libreria-almacenamiento';
+const { escribirAlmacenamiento, leerAlmacenamiento, limpiarAlmacenamiento } = require('@red-unica/libreria-almacenamiento')
   
 
 escribirAlmacenamiento('texto', textoPlano); # almacena en localStorage el texto-plano de manera cifrada

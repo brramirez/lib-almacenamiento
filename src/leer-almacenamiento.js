@@ -1,4 +1,5 @@
-import { descifrarTexto } from '@red-unica/libreria-cifrado';
+//import { descifrarTexto } from '@red-unica/libreria-cifrado';
+const { descifrarTexto } = require('@red-unica/libreria-cifrado');
 /**
  * @author brramirezr
  * @function Descifra y lee la información almacenada en el localStorage
@@ -18,4 +19,5 @@ const leerAlmacenamiento = (llave) => {
 
 }
 
-export default leerAlmacenamiento;
+//export default leerAlmacenamiento;
+module.exports = leerAlmacenamiento;
