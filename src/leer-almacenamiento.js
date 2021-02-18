@@ -1,4 +1,3 @@
-//import { descifrarTexto } from '@red-unica/libreria-cifrado';
 const { descifrarTexto } = require('@red-unica/libreria-cifrado');
 /**
  * @author brramirezr
@@ -19,5 +18,4 @@ const leerAlmacenamiento = (llave) => {
 
 }
 
-//export default leerAlmacenamiento;
 module.exports = leerAlmacenamiento;
